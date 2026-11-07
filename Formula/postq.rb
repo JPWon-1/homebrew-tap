@@ -3,28 +3,28 @@
 class Postq < Formula
   desc "Local API client (Postman-like) that runs in your browser"
   homepage "https://github.com/JPWon-1/postq"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/JPWon-1/postq/releases/download/v0.1.1/postq-0.1.1-darwin-arm64.tar.gz"
-      sha256 "043513c853f02afda1e7641a8c4b6f7706993cc1a3951a37466d7fac102ff2f2"
+      url "https://github.com/JPWon-1/postq/releases/download/v0.1.2/postq-0.1.2-darwin-arm64.tar.gz"
+      sha256 "2691def9617fb64de9f9c7aab971372399c25321ed8ffafef93b8e33a3a9ad8f"
     end
     on_intel do
-      url "https://github.com/JPWon-1/postq/releases/download/v0.1.1/postq-0.1.1-darwin-x64.tar.gz"
-      sha256 "a2db8f7999cd5d4ff655cd7e6d5c8c3d9e25428db7b994952f801feada3a8b2d"
+      url "https://github.com/JPWon-1/postq/releases/download/v0.1.2/postq-0.1.2-darwin-x64.tar.gz"
+      sha256 "e64413f50ae53000393c7dc5b3ac39d1ab85e1d4e40ccd6e4b0066d680854fba"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/JPWon-1/postq/releases/download/v0.1.1/postq-0.1.1-linux-arm64.tar.gz"
-      sha256 "b006c1f5541da0c5335d5f96c3d28aeea3c06a0d1fc7eeab5c2cce2799f6cabc"
+      url "https://github.com/JPWon-1/postq/releases/download/v0.1.2/postq-0.1.2-linux-arm64.tar.gz"
+      sha256 "2707768707ea5ca6361ee99314d1c39ef86ab0f748199e063b9acb445fabe789"
     end
     on_intel do
-      url "https://github.com/JPWon-1/postq/releases/download/v0.1.1/postq-0.1.1-linux-x64.tar.gz"
-      sha256 "80af35932e4a5415266f9970fe22f0c59a469e3f24ea37a8ff790d9050cf2c11"
+      url "https://github.com/JPWon-1/postq/releases/download/v0.1.2/postq-0.1.2-linux-x64.tar.gz"
+      sha256 "73d27a08d5168f169d299b353adaa6fdb919a1ed0dcad6fc63e1e93754a45984"
     end
   end
 
